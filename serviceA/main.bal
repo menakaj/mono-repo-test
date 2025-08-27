@@ -24,6 +24,6 @@ service / on httpListener {
         if name is string {
             return string `Hello, ${name}!`;
         }
-        return "Hello, World!";
+        return "Hello, World updated!";
     }
 }
